@@ -68,3 +68,5 @@ y_pred_actual.to_csv('../results/Digit_Recognizer_1.csv', index = None)
 
 #from sklearn.metrics import confusion_matrix
 #cm = confusion_matrix(y_test_actual, y_pred_actual)
+
+#Accuracy = 
