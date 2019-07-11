@@ -31,11 +31,13 @@ classifier.add(Dense(
         kernel_initializer = 'uniform',
         input_dim = 784
         ))
+
 classifier.add(Dense(
         units = 25,
         activation = 'relu',
         kernel_initializer = 'uniform'
         ))
+
 classifier.add(Dense(
         units = 10,
         activation = 'sigmoid',
